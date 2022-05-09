@@ -42,7 +42,8 @@ void* Func1(void* args);
 void* Func2(void* args);
 
 
-int main() {
+int main() 
+{
     string line = "", cmpMsg = "", dmpMsg = "";
     int nSymbol = 0, i = 0, fxdLen = 0, mSymbol = 0, nTotalThread = 0;
     Symbol* pSymbols = NULL;
